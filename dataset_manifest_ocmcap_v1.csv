@@ -1,0 +1,3 @@
+file_name,tier,description,record_count,variable_count,format,sha256,version,date_created
+ocmcap_raw_dataset_v1.csv,public_raw,De-identified raw questionnaire responses (80 items) + composite construct scores used in the manuscript; includes anonymized organization IDs for group-aware validation.,230,119,CSV,f3e81d4e3d99c556d24e8a538b691a197c0b2c34591386afcd0c2d5011a8752f,v1.0.0,2026-02-22
+ocmcap_raw_dataset_v1.xlsx,public_raw,"Same as CSV, in Excel format.",230,119,XLSX,3aad977358797be8e40274f2483fe8e58aa1dc8ef58ce65119f35d39c6a94b78,v1.0.0,2026-02-22

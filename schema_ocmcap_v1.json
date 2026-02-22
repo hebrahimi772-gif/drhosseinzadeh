@@ -1,0 +1,611 @@
+{
+  "dataset": "ocmcap_raw_dataset_v1",
+  "n_records": 230,
+  "n_variables": 119,
+  "primary_key": "id",
+  "group_key": "org_id_anon",
+  "likert_scale": {
+    "min": 1,
+    "max": 5,
+    "labels": "1=Strongly disagree ... 5=Strongly agree"
+  },
+  "variables": [
+    {
+      "name": "id",
+      "type": "float64",
+      "description": "Respondent ID (pseudonymous, sequential)."
+    },
+    {
+      "name": "org_id_anon",
+      "type": "int64",
+      "description": "Anonymized organization identifier (1-15) used for GroupKFold outer CV and ICC estimation."
+    },
+    {
+      "name": "gender",
+      "type": "float64",
+      "description": "جنسیت"
+    },
+    {
+      "name": "marital",
+      "type": "float64",
+      "description": "وضعیت تاهل"
+    },
+    {
+      "name": "age",
+      "type": "float64",
+      "description": "رده‌های سنی"
+    },
+    {
+      "name": "education",
+      "type": "float64",
+      "description": "تحصیلات"
+    },
+    {
+      "name": "quest1",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest2",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest3",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest4",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest5",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest6",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest7",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest8",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest9",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest10",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest11",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest12",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest13",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest14",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest15",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest16",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest17",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest18",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest19",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest20",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest21",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest22",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest23",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest24",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest25",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest26",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest27",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest28",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest29",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest30",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest31",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest32",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest33",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest34",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest35",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest36",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest37",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest38",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest39",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest40",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest41",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest42",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest43",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest44",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest45",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest46",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest47",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest48",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest49",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest50",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest51",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest52",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest53",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest54",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest55",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest56",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest57",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest58",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest59",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest60",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest61",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest62",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest63",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest64",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest65",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest66",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest67",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest68",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest69",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest70",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest71",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest72",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest73",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest74",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest75",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest76",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest77",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest78",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest79",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "quest80",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "org_climate_score",
+      "type": "float64",
+      "description": "جو سازمانی"
+    },
+    {
+      "name": "org_support_score",
+      "type": "float64",
+      "description": "حمایت سازمانی"
+    },
+    {
+      "name": "org_context_score",
+      "type": "float64",
+      "description": "بستر سازمانی"
+    },
+    {
+      "name": "org_resources_score",
+      "type": "float64",
+      "description": "منابع سازمانی"
+    },
+    {
+      "name": "change_mgmt_capability_score",
+      "type": "float64",
+      "description": "مدیریت تغییر"
+    },
+    {
+      "name": "x1",
+      "type": "float64",
+      "description": "فرهنگ آمادگی و نوآوری"
+    },
+    {
+      "name": "x2",
+      "type": "float64",
+      "description": "تعاملات درون و برون سازمانی"
+    },
+    {
+      "name": "x3",
+      "type": "float64",
+      "description": "پویایی سازمانی"
+    },
+    {
+      "name": "x4",
+      "type": "float64",
+      "description": "فرصتهای توسعه و آموزش"
+    },
+    {
+      "name": "x5",
+      "type": "float64",
+      "description": "منابع مالی"
+    },
+    {
+      "name": "x6",
+      "type": "float64",
+      "description": "ظرفیت‌سازی و بهبود عملکرد سازمانی"
+    },
+    {
+      "name": "x7",
+      "type": "float64",
+      "description": "مدیریت دانش در سازمان"
+    },
+    {
+      "name": "x8",
+      "type": "float64",
+      "description": "ساختار و پیشرفت تکنولوژیک"
+    },
+    {
+      "name": "x9",
+      "type": "float64",
+      "description": "سرمایه اجتماعی سازمان"
+    },
+    {
+      "name": "x10",
+      "type": "float64",
+      "description": "خودکارآمدی و انگیزش"
+    },
+    {
+      "name": "x11",
+      "type": "float64",
+      "description": "رهبری"
+    },
+    {
+      "name": "x12",
+      "type": "float64",
+      "description": "تعامل و مشارکت"
+    },
+    {
+      "name": "x13",
+      "type": "float64",
+      "description": "استراتژی‌ها و ظرفیت اجرای تغییرات"
+    },
+    {
+      "name": "x14",
+      "type": "float64",
+      "description": "حمایت رهبری"
+    },
+    {
+      "name": "p1",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p2",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p3",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p4",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p5",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p6",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p7",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p8",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p9",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p10",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p11",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p12",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p13",
+      "type": "float64",
+      "description": ""
+    },
+    {
+      "name": "p14",
+      "type": "float64",
+      "description": ""
+    }
+  ],
+  "created": "2026-02-22T01:33:39.091727Z",
+  "version": "v1.0.0"
+}
