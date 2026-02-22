@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Predictive Modeling of Organizational Change Management Capability in Healthcare Settings: An Integrated Machine Learning and Hierarchical Statistical Approach"
+authors:
+  - family-names: "Hosseinzadeh"
+    given-names: "D."
+    name: "hebrahimi772-gif"
+repository:
+  type: "git"
+  url: "https://github.com/hebrahimi772-gif/drhosseinzadeh"
+preferred-citation: |
+  D. Hosseinzadeh. (2026). Predictive Modeling of Organizational Change Management Capability in Healthcare Settings: An Integrated Machine Learning and Hierarchical Statistical Approach. Unpublished manuscript.

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+env/
+
+# Data outputs
+outputs/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/

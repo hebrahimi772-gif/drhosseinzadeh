@@ -1,0 +1,26 @@
+# Configuration for the reproducibility pipeline
+random_seed: 12345
+
+data:
+  raw: "data/raw/ocmcap_raw_dataset_v1.csv"
+  schema: "data/raw/schema_ocmcap_v1.json"
+  manifest: "data/metadata/dataset_manifest_ocmcap_v1.csv"
+  codebook: "data/metadata/codebook_ocmcap_v1.csv"
+
+target: "change_mgmt_capability_score"
+group_var: "org_id_anon"
+
+holdout_fraction: 0.20
+
+cv:
+  outer_folds: 5
+  inner_folds: 3
+  scoring_metrics:
+    - "r2"
+    - "neg_mean_squared_error"
+
+outputs:
+  tables: "outputs/tables"
+  figures: "outputs/figures"
+  logs: "outputs/logs"
+  model_artifacts: "outputs/model_artifacts"
